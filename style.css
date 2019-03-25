@@ -1,0 +1,123 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header__form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__headline{
+    flex-basis: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    align-self: center;
+    margin: 0px;
+}
+
+.form__label{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form__input{
+    font-size: 20px;
+    text-align: center;
+}
+
+.form__label, .form__input{
+    flex-basis: 45%;
+    padding: 0px;
+    border-width: 0px;
+}
+
+
+.form__button{
+    margin-top: 40px;
+    flex-basis: 100%;
+    font-size: 20px;
+}
+
+
+.header__form{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.main{
+    position: absolute;
+    top: -100vh;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    transition: all 1s;
+    background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main__box{
+    width: 80%;
+    flex-basis: 30%;
+    margin: auto;
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(255,255,255,1);
+    box-shadow: 0px 0px 20px 8px rgba(255,255,255,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__time{
+    font-size: 100px;
+    text-align: center;
+    color: wheat;
+}
+
+.form__label{
+    
+}
+
+.main__box--opacity{
+    opacity: 0.6;
+    pointer-events:none;
+}
+
+.exit{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
